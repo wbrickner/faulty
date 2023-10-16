@@ -1,8 +1,12 @@
 [package]
-name = "Projects"
-version = "0.1.0"
+name = "faulty"
+version = "0.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Will Brickner"]
+description = "Easily write complex programs that perform fallible control tasks."
+repository = "https://github.com/wbrickner/faulty"
+license = "MIT OR Apache-2.0"
+keywords = ["control"]
+categories = ["embedded", "no-std", "science::robotics", "finance", ]
 
 [dependencies]
